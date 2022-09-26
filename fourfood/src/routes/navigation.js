@@ -10,6 +10,6 @@ export const goToLoginPage = (navigator) => {
     navigator('/')
 }
 
-export const GoToDetailPage = (navigator) => {
-    navigator ('/Detail-Restaurant')
+export const GoToDetailPage = (navigator, id) => {
+    navigator (`/Detail-Restaurant/${id}`)
 }

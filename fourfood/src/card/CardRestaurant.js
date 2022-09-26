@@ -2,7 +2,8 @@ import React from 'react'
 import RestaurantDetailPage from '../pages/detailRestaurant/RestaurantDetailPage'
 import './card.css'
 
-const CardRestaurant = ({ logo, name, time, priceDelivery, onClickCard}) => {
+const CardRestaurant = ({logo, name, time, priceDelivery, onClickCard}) => {
+  
   return (
     <div className='card-container' onClick={onClickCard}>
         <div className='logo'>

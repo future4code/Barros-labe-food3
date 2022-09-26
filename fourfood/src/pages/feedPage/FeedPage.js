@@ -35,8 +35,8 @@ const FeedPage = () => {
       })
   }, [])
 
-  const onClickCard = () => {
-      GoToDetailPage(navigate)
+  const onClickCard = (id) => {
+      GoToDetailPage(navigate, id)
   }
 
   return (
@@ -60,14 +60,14 @@ const FeedPage = () => {
           restaurants.filter((res)=>{
             return res.name.includes(query)
         })
-        .map((res, index) => (
+        .map((res) => (
           <CardRestaurant 
-            key={index} 
+            key={res.id} 
             logo={res.logoUrl} 
             name={res.name} 
             time={res.deliveryTime}
             priceDelivery={res.shipping}
-            onClickCard={onClickCard}
+            onClickCard={()=> onClickCard(res.id)}
             />
         ))}
         {!removeLoading && <LoadingPage/>}
