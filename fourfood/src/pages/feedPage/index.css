@@ -1,0 +1,78 @@
+
+
+.main-container{
+max-width: 50vw;
+margin: 0px auto;
+background-color: #e9e8e8;
+padding-top: 10px;
+box-shadow: 1px 1px 8px rgb(171, 171, 171);
+}
+
+.restaurants-list{
+    max-width: 50vw;
+    margin: 0 auto;
+    gap: 25px;
+    justify-items: center;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr ;
+}
+.query{
+    width: 47vw ;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: 1px solid #b8b8b8;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.query p{
+    color: #b8b8b8 ;
+    padding-left: 10px;
+}
+
+#query{
+    width: 94%;
+    height: 56px;   
+    border: none;
+    border-radius: 6px;
+
+}
+
+#query:focus{
+    outline: 0;
+    color: #848484;
+}
+
+#query::placeholder{
+    color: #d0d0d0;
+    font-size: 15px;
+    margin-left: 50px;
+}
+
+#errorTratament{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: #e86e5a;
+}
+#errorTratament button{
+    width: 40%;
+    height: 36px;
+    margin: 10px auto;
+    background-color: #e86e5a ;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+#errorTratament button:hover{
+    border: 2px solid #e86e5a;
+    background-color: white;
+    color: #e86e5a;
+    cursor: pointer;
+    transform: scale(1.02);
+}
