@@ -1,0 +1,14 @@
+.Loading-container{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Loading-container h2{
+    text-align: center;
+    color: #e86e5a;
+    font-family: 'Roboto';
+    font-weight: lighter;
+}
