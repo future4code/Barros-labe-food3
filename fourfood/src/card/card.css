@@ -45,3 +45,84 @@ height: 34px;
    padding: 0 16px 16px 16px;
    color: #b8b8b8;
 }
+.CardMenu{
+     
+    width: 360px;
+  height: 834px;
+}; 
+.CardMenu main{
+    width: 360px;
+    height: 120px;
+    margin: 8px 0 0;
+    padding: 0 16px;
+};
+.CardMenu div{
+    width: 328px;
+    height: 112px;
+    margin: 7px 0 0;
+    padding: 18px 0 0 113px;
+    border-radius: 8px;
+    border: solid 1px var(--greyish);
+};
+.CardMenu img{
+    width: 92px;
+    height: 112px;
+};
+.CardMenu h1{
+    width: 166px;
+    height: 18px;
+    margin: 0 49px 6px 0;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.39px;
+    color: var(--dark-peach);
+  };
+.CardMenu h3{
+    width: 166px;
+  height: 18px;
+  margin: 0 49px 6px 0;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.39px;
+  color: var(--dark-peach);
+};
+.CardMenu p{
+    width: 198px;
+    height: 30px;
+    margin: 6px 17px 6px 0;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.34px;
+    color: var(--greyish)
+};
+.CardMenu span{
+    width: 48px;
+    height: 14px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.29px;
+    text-align: center;
+    color: #000;
+};
+
+
+
+      
+      
+      

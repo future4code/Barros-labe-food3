@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import { useEffect } from 'react'
 import { BASE_URL } from '../../constants/constants'
 import { useParams } from 'react-router-dom'
+import CardMenu from '../../card/card-menu'
 
 const RestaurantDetailPage = () => {
   const [menu, setMenu] = useState([])
@@ -26,13 +27,16 @@ const RestaurantDetailPage = () => {
   return (
     <div>
       {menu.map((menu)=>{
-       return <p key={menu.id}>
-        <p><img src={menu.photoUrl} alt="" width={'150px'} /></p>
-        <p>{menu.category}</p>
-        <p>{menu.description}</p>
-        {menu.name}
-        <p>R${menu.price}</p>
-        </p>
+       return <CardMenu 
+       key={menu.id}
+       img={menu.photoUrl}
+       category={menu.category}
+       description={menu.description}
+       name={menu.name}
+       price={menu.price}
+       />
+
+      
       })}
     </div>
   )
