@@ -1,11 +1,9 @@
 
 
 .main-container{
-max-width: 50vw;
+max-width: 40vw;
 margin: 0px auto;
-background-color: #e9e8e8;
 padding-top: 10px;
-box-shadow: 1px 1px 8px rgb(171, 171, 171);
 }
 
 .restaurants-list{
@@ -15,10 +13,10 @@ box-shadow: 1px 1px 8px rgb(171, 171, 171);
     justify-items: center;
     display: grid;
     flex-wrap: wrap;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 100% ;
 }
 .query{
-    width: 47vw ;
+    width: 40vw ;
     margin: 0 auto;
     margin-bottom: 10px;
     border: 1px solid #b8b8b8;
