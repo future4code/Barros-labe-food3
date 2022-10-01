@@ -1,11 +1,20 @@
-import Router from "./routes/Router";
+import React from "react";
+import Router from "./routes/router";
+import { BrowserRouter } from "react-router-dom";
+import theme from "./constants/theme";
+import GlobalState from "./global/GlobalState";
+import { ThemeProvider } from "@mui/material/styles";
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <Router/>
-    </div>
+    <ThemeProvider theme={theme}>
+      <BrowserRouter>
+        <GlobalState>
+          <Router />
+        </GlobalState>
+      </BrowserRouter>
+    </ThemeProvider>
   );
-}
+};
 
 export default App;
