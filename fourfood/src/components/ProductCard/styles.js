@@ -29,7 +29,7 @@ export const Info = styled.div`
     position: relative;
 
     p {
-        color: var(--green);
+        color: var(--orange);
         margin: 0;
         margin-bottom: 8px;
         font-weight: 400;
@@ -51,8 +51,8 @@ export const Button = styled.button`
     bottom: 0;
     right: 0;
     background-color: transparent;
-    border: 1px solid var(--green);
-    color: var(--green);
+    border: 1px solid var(--orange);
+    color: var(--orange);
     padding: 15px 0px;
     border-radius: 10px 0px;
     width: 48%;

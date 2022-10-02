@@ -7,10 +7,10 @@ const HomePage = () => {
   const navigate = useNavigate();
   return (
     <StyledBody onClick={() => goToLoginPage(navigate)}>
-      <MainDiv >
-        <Title>Future
+      <MainDiv>
+        <Title>
           <br/>
-          <StyledSpan>Eats</StyledSpan>
+          <StyledSpan>Rappi4</StyledSpan>
         </Title>
         <br />
         {/* <Btns onClick={() => goToLoginPage(navigate)}>Ir para login</Btns> */}

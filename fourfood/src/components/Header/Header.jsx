@@ -10,7 +10,7 @@ const Header = (props) => {
 
   const headerTitle = () => {
     if (location.pathname === '/cadastro') return ''
-    if (location.pathname === '/home') return 'FutureEats'
+    if (location.pathname === '/home') return 'Rappi4'
     if (location.pathname === '/carrinho') return 'Meu carrinho'
     if (location.pathname === '/perfil') return 'Meu perfil'
     if (location.pathname === '/editar-perfil') return 'Editar'

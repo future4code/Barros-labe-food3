@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const StyledBody = styled.body`
     height: 100vh;
-    background: black;
+    background: #ff9501;
 `
 
 export const MainDiv = styled.div`
@@ -12,12 +12,13 @@ export const MainDiv = styled.div`
 export const Title = styled.h1`
     font-size: 4em;
     margin: 15% auto;
-    color: white;
+    color: #ff9501;
 
 `
 
 export const StyledSpan = styled.span`
     display: block;
     width: min-content;
-    color: #5cb646; 
+    fonte-family: verdana; 
+    color: #ff9501; 
 `

@@ -7,7 +7,7 @@ export const Container = styled.div`
     justify-content: space-between;
     position: fixed;
     bottom: 0;
-    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+    box-shadow: rgba(50, 50, 50, 0.5) 0px 5px 15px;
     background-color: white;
 
     div {
