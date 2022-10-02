@@ -13,7 +13,7 @@ export const Info = styled.div`
     }
 
     p {
-        color: var(--green);
+        color: var(--#ff9505);
         margin: 0;
         padding-top: 10px;
         font-size: 22px;

@@ -7,7 +7,7 @@ export const Container = styled.header`
     justify-content: space-between;
     position: fixed;
     top: 0;
-    border-bottom: 1px solid var(--black-25);
+    border-bottom: 1px solid var(--orange-25);
     background-color: white;
     z-index: 2;
 

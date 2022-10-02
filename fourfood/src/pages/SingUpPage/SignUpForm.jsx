@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { InputsContainer, SignUpFormContainer } from "./styledSignUp";
 import { TextField } from "@mui/material";
 import { Button } from "@mui/material";
-import logo from "../../assets/logo-future-eats-invert.png"
+import logo from "../../assets/logo-rappi4-invert.png"
 import { LogoImage } from "../LoginPage/styledLogin";
 
 

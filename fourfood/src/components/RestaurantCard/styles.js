@@ -18,7 +18,7 @@ export const Info = styled.div`
     padding: 10px 15px;
 
     #name {
-        color: var(--green);
+        color: var(--orange);
         font-weight: 400;
     }
 

@@ -21,7 +21,7 @@ export const Tags = styled.div`
 
 export const Span = styled.div`
     padding: 20px 0px;
-    color: ${props => props.active ? "var(--green)" : "black"};
+    color: ${props => props.active ? "var(--orange)" : "#ff9501"};
 `
 
 export const RestaurantDisplay = styled.div`

@@ -54,7 +54,7 @@ const Adress = () => {
           value={form.street}
           name="street"
           onChange={onChange}
-          label="Logadouro"
+          label="Logradouro"
           variant="outlined"
           className="Input_locus"
           required

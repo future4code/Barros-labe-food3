@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import useUnprotectedPage from "../../hooks/useUnprotectedPage";
 import { ScreenContainer, SignUpButtonContainer } from "./styledLogin";
 import { Button } from "@mui/material";
-import logo from "../../assets/logo-future-eats-invert.png"
+import logo from "../../assets/logo-rappi4-invert.png"
 import { LogoImage } from "./styledLogin";
 
 const LoginPage = () => {
